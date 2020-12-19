@@ -1,0 +1,179 @@
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1024px;
+    max-width: 1024px;
+}
+
+.body a {
+    text-decoration: none;
+}
+
+.body a:visited {
+    color: blue;
+}
+
+.body a:hover{
+    color: #FF0000;
+    text-decoration: underline;
+}
+.header {
+	background-image: url("images/headerimg.jpg");
+	background-size: cover;
+	background-position: center;
+    min-width: 720px;
+    min-height: 220px;
+	border-radius: 20px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headernav {
+	font-size: 30px;
+	text-align: center;
+}
+
+.headernav span {
+	margin: 30px;
+}
+
+.sidebar {
+	margin-left: auto;
+	width: 35%;
+	height: 550px;
+	float: right;
+	text-align: center;
+}
+
+.content {
+	margin-right: auto;
+	width: 64.5%;
+	height: 550px;
+	float: left;
+    overflow: auto;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 19px;
+    text-indent: 50px;
+    margin: 15px;
+}
+
+.post a {
+    font-size: 25px;
+}
+
+.regform {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.regform .small {
+    font-size: 10px;
+}
+
+.post .title {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.post .date {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.sidebar input {
+	margin: 10px;
+	width: 300px;
+}
+
+.sidebar div {
+	border: 1px solid;
+	margin-bottom: auto;
+	background-color: green;
+	border-radius: 20px;
+	float: top;
+	font-size: 20px;
+}
+
+.sidebar .registration {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 60px;
+}
+
+.sidebar .registration a {
+	color: black;
+	font-size:30px;
+}
+
+.sidebar .registration a:hover {
+    color: #FF0000;
+}
+
+.sidebar .categories p {
+	font-size: 30px;
+	margin: 10px;
+}
+
+.sidebar .categories a {
+	color: black;
+}
+
+.sidebar .categories a:hover {
+    color: #FF0000;
+}
+
+.footer {
+	height: 120px;
+	border: 1px solid;
+}
+
+.footernav {
+	font-size: 20px;
+	text-align: center;
+}
+
+.footernav span {
+	margin: 30px;
+}
+
+.comment a{
+    font-size: 14px;
+}
+
+.comment {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.comment textarea, input {
+    width: 99%;
+}
+
+.postcreate input, textarea, select {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.postcreate {
+    text-align: center;
+}
+
+.postcreate span {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.postcreate textarea {
+    height: 200px;
+}
+
