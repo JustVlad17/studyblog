@@ -55,6 +55,4 @@ class PostController extends Controller
         $posts = Post::where('category_id', $id)->get();
         return view('post.showCategoryPosts', ['posts' => $posts, 'category' => $category]);
     }
-
 }
-

@@ -4,7 +4,7 @@
     @if (isset($posts))
         @foreach ($posts as $post)
             <div class="post">
-                <a href="/post/{{ $post->id }}">{{ $post->title }}</a><br>
+                <a href="/post/{{ $post->id }}"><p>{{ $post->title }}</p></a>
                 Дата создания: {{ $post->created_at }}<br>
                 @if (strlen($post->content) > 250)
                     <p>{{ substr($post->content, 0 ,255) . '...' }}</p>
@@ -17,3 +17,5 @@
         <p>Здесь пока нету постов</p>
     @endif
 @endsection('content')
+
+{{--*/--}}

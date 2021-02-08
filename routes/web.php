@@ -28,11 +28,11 @@ use App\Http\Controllers\AdminCategoryController;
  */
 
 
-Route::get('/about', function() {
+Route::get('/about', function () {
     return view('web.static.about');
 });
 
-Route::match(['get', 'post'],'/foradmin/posts/createpost', [AdminPostController::class, 'createPost'])
+Route::match(['get', 'post'], '/foradmin/posts/createpost', [AdminPostController::class, 'createPost'])
     ->name('createpost');
 
 Route::get('/', [PostController::class, 'showAllPosts'])->name('main');
@@ -52,7 +52,7 @@ Route::post('/authorization', [AuthorizationController::class, 'authorization'])
 Route::get('/logout', [AuthorizationController::class, 'logout']);
 
 Route::get('/foradmin', function () {
-    return view ('web.foradmin');
+    return view('web.foradmin');
 });
 
 Route::get('/foradmin/users', [AdminUserController::class, 'showAllUsers'])->name('users');

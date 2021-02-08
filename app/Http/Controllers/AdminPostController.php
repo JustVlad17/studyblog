@@ -39,8 +39,7 @@ class AdminPostController extends Controller
     public function editPost(Request $request)
     {
         $post = Post::find($request->id);
-        if ($request->has('redact'))
-        {
+        if ($request->has('redact')) {
             $post->title = $request->title;
             $post->content = $request->content;
             $post->updated_at = time();

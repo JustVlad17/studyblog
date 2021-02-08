@@ -10,9 +10,8 @@ class AdminCategoryController extends Controller
     public function createCategory(Request $request)
     {
         $result = 'Создайте категорию';
-        if (!empty($request->category))
-        {
-            if($this->check($request->category)) {
+        if (!empty($request->category)) {
+            if ($this->check($request->category)) {
                 $category = new Category();
                 $category->category = $request->category;
                 $category->save();

@@ -12,8 +12,14 @@ class Post extends Model
     public function logins()
     {
         //return $this->hasMany('App\Models\Comment');
-        return $this->hasManyThrough('App\Models\User', 'App\Models\Comment',
-                                    'post_id', 'id', 'id', 'user_id');
+        return $this->hasManyThrough(
+            'App\Models\User',
+            'App\Models\Comment',
+            'post_id',
+            'id',
+            'id',
+            'user_id'
+        );
     }
 
     public function comments()

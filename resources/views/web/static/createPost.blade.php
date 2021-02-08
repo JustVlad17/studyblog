@@ -4,15 +4,16 @@
     @if (Session::has('role') && Session::get('role') === 'admin')
         <form action="" method="POST" class="postcreate">
             {{ csrf_field() }}
-            <input style="width: 93%;" type="text" name="title" placeholder="Введите заголовок"><br>
-            <textarea name="content" placeholder="Введите содержимое"></textarea><br>
+            <input style="width: 97.5%; margin-bottom: 10px" type="text" name="title" placeholder="Введите заголовок"><br>
+            <textarea name="content" placeholder="Введите содержимое" style="width: 99.5%; height: 200px; resize: none; margin-bottom: 5px">
+            </textarea><br>
             Выберите категорию<br>
-            <select name="category">
+            <select style="width: 100%; margin-bottom: 10px" name="category">
                 @foreach(\App\Models\Category::all() as $category)
                     <option value="{{ $category->id }}">{{ $category->category }}</option>
                 @endforeach
             </select><br>
-            <input type="submit" value="Создать">
+            <input style="width: 100%" type="submit" value="Создать">
         </form>
         @if(isset($result))
             <p>{{ $result }}</p>

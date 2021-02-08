@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ff44f20-614b-4f18-ab0c-b02020ac924d" name="Default Changelist" comment="" />
+    <list default="true" id="2ff44f20-614b-4f18-ab0c-b02020ac924d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminPost/editPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPost/editPost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminPost/showAllPosts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPost/showAllPosts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminUser/showAllUsers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminUser/showAllUsers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/showAllPosts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/showAllPosts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/showOnePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/showOnePost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/foradmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/foradmin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/master-layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/master-layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/static/createPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/static/createPost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/static/forAdminPosts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/static/forAdminPosts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +146,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lsKQPYbsFIsFQZWWzKz3tp6Eo8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -131,6 +154,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -147,7 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608380341748</updated>
-      <workItem from="1608380344031" duration="3621000" />
+      <workItem from="1608380344031" duration="4520000" />
+      <workItem from="1608550046892" duration="301000" />
+      <workItem from="1608910079769" duration="798000" />
+      <workItem from="1609088039647" duration="819000" />
+      <workItem from="1611923563654" duration="71000" />
+      <workItem from="1612820656063" duration="6127000" />
     </task>
     <servers />
   </component>

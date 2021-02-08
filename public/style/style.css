@@ -1,4 +1,224 @@
-.body {
+#wrapper {
+    width: 1200px;
+    margin: 10px auto;
+    min-width: 1200px;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background: url(images/header-wrapper-bg.png) left top;
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 175px;
+    margin-right: 200px;
+    width: 221px;
+    height: 110px;
+    background: url(images/logo-bg.png) no-repeat left top;
+    line-height: 110px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+nav a {
+    background: #881D1D;
+    border-radius: 5px;
+    margin-right:50px;
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+nav a:hover {
+    background: black;
+}
+
+main {
+    margin-left: 50px;
+    width: 60.5%;
+    float: left;
+}
+
+aside {
+    border-radius: 10px;
+    background: url(images/sidebar-bg-02.png) repeat-y left top;
+    background-size: contain;
+    border: 1px solid green;
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+aside a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+aside a:hover {
+    color: #fc2205;
+}
+
+aside input {
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.bg-top {
+    height: 15px;
+    background: url(images/sidebar-bg-01.png) no-repeat left top;
+    background-size: cover;
+}
+
+.top-pic {
+    margin-top: 10px;
+    background: url(images/sidebar-title-bg.png) no-repeat left top;
+    background-size: cover;
+    height: 42px;
+    width: 380px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.top-pic a {
+    background: #881D1D;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+.sidebar-box {
+    margin: 10px auto;
+    color: #fff;
+}
+
+.bg-btm {
+    height: 15px;
+    background: url(images/sidebar-bg-03.png) no-repeat left top;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    background: url(images/footer-content-bg-01.png) repeat;
+}
+
+footer .bg-top {
+    background: url(images/footer-content-bg-02.png) repeat-x left top;
+}
+
+.post a {
+    font-family: 'Cookie', cursive;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.post h2 {
+    font-family: 'Cookie', cursive;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.post a:hover {
+    color: darkgoldenrod;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    margin-bottom: 15 px;
+    word-break: break-all;
+}
+
+.post .date {
+    text-decoration: underline;
+}
+
+.comment {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment-content {
+    font-size: 12pxpx;
+}
+
+.comment-content a {
+    font-size: 12px;
+    font-family: Cookie;
+    text-decoration: underline;
+}
+
+.comment-content p {
+    font-size: 16px;
+    font-family: Cookie;
+}
+
+.choise {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.choise button, input {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.foradmin {
+    text-align: center;
+}
+
+.foradmin button {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.body {
     margin-left: auto;
     margin-right: auto;
     min-width: 1024px;
@@ -176,4 +396,4 @@
 .postcreate textarea {
     height: 200px;
 }
-
+*/
