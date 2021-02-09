@@ -8,7 +8,7 @@ This is the simple blog
 
 git clone https://github.com/JustVlad17/studyblog;
 
-locate to dir with project and write in terminal "php artisan migrate";
-after write "php artisan db:seed";
+Locate to directory with project and write in terminal "composer install";
 
+After write "php artisan migrate" and "php artisan db:seed";
 
